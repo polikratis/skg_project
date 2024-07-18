@@ -1,14 +1,14 @@
 import "./what2do.css";
-// import { Feature } from "../../components";
+import Feature from "../components";
 
 const What2do = () => {
   return (
     <div className="app__what2do section__margin" id="what2do">
       <div className="app__what2do-feature">
-        {/* <Feature
+        <Feature
           title="Why Thessaloniki"
           text="Whether you're a history enthusiast, a food lover, or seeking vibrant experiences, Thessaloniki won't disappoint!"
-        /> */}
+        />
       </div>
       <div className="app__what2do-heading">
         <h1 className="gradient__text">
