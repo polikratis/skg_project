@@ -1,5 +1,5 @@
 import "./what2do.css";
-import Feature from "../components";
+import Feature from "../components/Feature/Feature";
 
 const What2do = () => {
   return (
@@ -17,7 +17,7 @@ const What2do = () => {
         <p>Explore The Library</p>
       </div>
       <div className="app__what2do-container">
-        {/* <Feature
+        <Feature
           title="Rich History and Ancient Sites"
           text="Explore the 7th-century Church of Agios Dimitrios and the 6th-century Agia Sofia. These archaeological gems provide glimpses into Thessaloniki's past."
         />
@@ -36,7 +36,7 @@ const What2do = () => {
         <Feature
           title="Day Trips"
           text="Use Thessaloniki as a base to explore nearby wineries and coastal towns. Pella and Vergina are excellent options."
-        /> */}
+        />
       </div>
     </div>
   );
