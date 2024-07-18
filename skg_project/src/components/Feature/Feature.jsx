@@ -2,7 +2,7 @@
 import "./feature.css";
 
 const Feature = ({ title, text }) => (
-  <div className="app__feature-container">
+  <div className="app__feature-container__feature">
     <div className="app__feature-container__feature-title">
       <h1>{title}</h1>
     </div>

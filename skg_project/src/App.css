@@ -102,6 +102,13 @@
   width: 45px;
 }
 
+.section__margin {
+  margin: 4rem 6rem;
+}
+
+
+
+
 @media screen and (min-width: 2000px) {
   .custom__button,
   .p__cormorant {

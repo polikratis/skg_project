@@ -1,20 +1,25 @@
 import "./what2do.css";
-import Feature from "../components/Feature/Feature";
+import { Feature } from "../components";
 
 const What2do = () => {
   return (
     <div className="app__what2do section__margin" id="what2do">
       <div className="app__what2do-feature">
-        <Feature
-          title="Why Thessaloniki"
-          text="Whether you're a history enthusiast, a food lover, or seeking vibrant experiences, Thessaloniki won't disappoint!"
-        />
+        <div>
+          <h2>Why Thessaloniki</h2>
+        </div>
+        <div>
+          <p>
+            Whether you're a history enthusiast, a food lover, or seeking
+            vibrant experiences, Thessaloniki won't disappoint!
+          </p>
+        </div>
       </div>
       <div className="app__what2do-heading">
         <h1 className="gradient__text">
           The possibilities are beyond your imagination
         </h1>
-        <p>Explore The Library</p>
+        <p>Explore The City</p>
       </div>
       <div className="app__what2do-container">
         <Feature
