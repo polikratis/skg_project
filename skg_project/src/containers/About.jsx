@@ -7,17 +7,13 @@ const About = () => (
       <img src={skg} alt="skg" />
     </div>
     <div className="app__wrapper_info app__about-content">
-      <h1 className="headtext__cormorant">Why SKG?</h1>
+      <h1 className="headtext__cormorant">Thessaloniki</h1>
 
       <div className="app__about-content">
         <p className="p__opensans">
-          Thessaloniki, with its rich history, ancient sites, and vibrant
-          culture, is a must-visit destination. Explore archaeological gems like
-          the 7th-century Church of Agios Dimitrios and the 6th-century Agia
-          Sofia. Indulge in the city’s gastronomic delights, from bougatsa
-          pastries to local street food. Thessaloniki’s lively nightlife and
-          stunning coastlines make it an ideal getaway. Plus, use it as a base
-          to explore nearby wineries and coastal towns.
+          Also known as Thessalonica, is the second-largest city in Greece. It
+          has slightly over one million inhabitants in its metropolitan area and
+          serves as the capital of the geographic region of Macedonia.
         </p>
       </div>
     </div>
