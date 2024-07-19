@@ -1,7 +1,7 @@
-import "./header.css";
+import "./newsletter.css";
 import people from "../assets/people.png";
 
-const Header = () => {
+const NewsLetter = () => {
   return (
     <div className="app__header section__padding" id="home">
       <div className="app__header-content">
@@ -26,4 +26,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default NewsLetter;

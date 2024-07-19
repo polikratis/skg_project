@@ -1,6 +1,6 @@
 import "./App.css";
 import { Navbar } from "./components";
-import Header from "./containers/Header";
+import NewsLetter from "./containers/NewsLetter";
 import About from "./containers/About";
 import What2do from "./containers/What2do";
 import Footer from "./containers/Footer";
@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Navbar />
-      <Header />
+      <NewsLetter />
       <About />
       <What2do />
       <Gallery />
