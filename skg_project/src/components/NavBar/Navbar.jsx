@@ -2,22 +2,20 @@ import "./Navbar.css";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { GrFormClose } from "react-icons/gr";
 import { useState } from "react";
-import love_skg from "../../assets/love_skg.png";
+// import love_skg from "../../assets/love_skg.png";
 
 const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false);
 
   return (
     <nav className="app__navbar">
-      <div className="app__navbar-logo">
-        <img src={love_skg} />
-      </div>
+      <div className="app__navbar-logo">{/* <img src={love_skg} /> */}</div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
           <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#what2do">Why SKG</a>
+          <a href="#what2do">Why Thessaloniki</a>
         </li>
         <li className="p__opensans">
           <a href="#what2do">What to Do</a>
