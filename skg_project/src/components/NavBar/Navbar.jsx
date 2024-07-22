@@ -14,16 +14,16 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans">
-          <a href="#home">Home</a>
+          <a href="#about">About</a>
         </li>
         <li className="p__opensans">
-          <a href="#about">Why SKG</a>
-        </li>
-        <li className="p__opensans">
-          <a href="#where2go">Where to Go</a>
+          <a href="#what2do">Why SKG</a>
         </li>
         <li className="p__opensans">
           <a href="#what2do">What to Do</a>
+        </li>
+        <li className="p__opensans">
+          <a href="#explore">Explore</a>
         </li>
         <li className="p__opensans">
           <a href="#info">Information</a>
@@ -53,13 +53,13 @@ const Navbar = () => {
             />
             <ul className="app__navbar-smallscreen_links">
               <li>
-                <a href="#home" onClick={() => setToggleMenu(false)}>
-                  Home
+                <a href="#about" onClick={() => setToggleMenu(false)}>
+                  About
                 </a>
               </li>
               <li>
-                <a href="#about" onClick={() => setToggleMenu(false)}>
-                  About
+                <a href="#home" onClick={() => setToggleMenu(false)}>
+                  Why
                 </a>
               </li>
               <li>

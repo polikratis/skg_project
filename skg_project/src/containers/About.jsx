@@ -7,7 +7,7 @@ const About = () => (
       <img src={skg} alt="skg" />
     </div>
     <div className="app__wrapper_info app__about-content">
-      <h1 className="headtext__cormorant">Thessaloniki</h1>
+      <h1 className="headtext__cormorant">About Thessaloniki</h1>
 
       <div className="app__about-content">
         <p className="p__opensans">

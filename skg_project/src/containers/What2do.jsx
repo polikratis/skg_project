@@ -6,9 +6,9 @@ const What2do = () => {
     <div className="app__what2do section__margin" id="what2do">
       <div className="app__what2do-feature">
         <div>
-          <h2>Why Thessaloniki</h2>
+          <h1>Why Thessaloniki</h1>
         </div>
-        <div>
+        <div className="app__what2do-feature-p">
           <p>
             Whether you're a history enthusiast, a food lover, or seeking
             vibrant experiences, Thessaloniki won't disappoint!
@@ -16,10 +16,11 @@ const What2do = () => {
         </div>
       </div>
       <div className="app__what2do-heading">
-        <h1 className="gradient__text">
+        <h2 className="gradient__text">
           The possibilities are beyond your imagination
-        </h1>
-        <p>Explore The City</p>
+        </h2>
+
+        <h2 className="gradient__text">Explore The City</h2>
       </div>
       <div className="app__what2do-container">
         <Feature
