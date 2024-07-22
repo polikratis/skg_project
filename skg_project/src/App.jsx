@@ -10,6 +10,7 @@ import Blog from "./containers/Blog";
 
 function App() {
   return (
+    // auto ti einai?
     <>
       <Navbar />
       <About />
